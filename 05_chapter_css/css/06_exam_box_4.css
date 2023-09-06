@@ -1,0 +1,25 @@
+#title1 {
+    border-top: 2px solid black;
+    width: 350px;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+#title2 {
+    border-left: 7px solid violet;
+    height: 35px;
+    padding-left: 5px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+#title3 {
+    border: 3px solid skyblue;
+    /* TODO : 둥근 사각형 속성  */
+    /* TODO : 사용법 - border-radius: 크기; (크기가 클수록 원이됨) */
+    border-radius: 5px;
+    width: 350px;
+    padding: 7px;
+    font-weight: bold;
+}

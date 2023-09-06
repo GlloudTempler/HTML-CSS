@@ -1,0 +1,45 @@
+body {
+    background-color: #02233b;
+}
+
+/* TODO: 문제 풀이 */
+#container {
+    width: 600px;
+    height: 700px;
+    margin: 0 auto;
+    border: 1px dotted gray;
+    background-color: white;
+    padding: 20px;
+    background-image: url(../img/mic.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+img {
+    margin: 30px 10px 30px 180px;
+}
+
+h1 {
+    background-color: #004344;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 50px;
+}
+
+h3 {
+    color: #cf3b00;
+}
+
+ul {
+    margin: 20px;
+    list-style-type: none;
+}
+
+li {
+    line-height: 30px;
+}

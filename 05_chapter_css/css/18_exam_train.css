@@ -1,0 +1,28 @@
+/* #col1, #col4 ~ : width 90px */
+/* 같은 선택자일 경우 : 디자인 적용 우선순위 -> 밑으로 갈수록 우선순위 */
+
+table {
+    width: 610px;
+}
+
+table, th, tr, td {
+    border: 1px solid gray;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 7px;
+}
+
+#table_title {
+    background-color: rgb(232, 246, 255);
+}
+
+.train {
+    color: red;
+    text-decoration: underline;
+    font-weight: bold;
+    background-color: pink;
+}
+
+#col1 ~ #col7 {
+    width: 90px;
+}

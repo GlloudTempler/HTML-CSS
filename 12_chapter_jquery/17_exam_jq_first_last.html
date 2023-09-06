@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 메뉴에 li중에서 첫번째 것만 선택해서 
+            css : background-color #ff0
+            #menu li 목록 중 마지막 것을 선택
+            css : bacground-color #0ff -->
+    <!-- 힌트 : css사용법 li:first, li:last -->
+    <h1>탐색 선택자</h1>
+    <ul id="menu">
+        <li>내용1</li>
+        <li>내용2</li>
+        <li>내용3</li>
+        <li>내용4</li>
+    </ul>
+
+    <script src="http://code.jquery.com/jquery-3.1.0.js"></script>
+    <script>
+        $(function(){
+            $("li:first").css("background-color", "#ff0")
+            $("li:last").css("background-color", "#0ff")
+        })
+    </script>
+</body>
+</html>

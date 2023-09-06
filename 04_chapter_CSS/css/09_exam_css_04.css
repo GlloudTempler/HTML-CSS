@@ -1,0 +1,10 @@
+ul{
+    list-style-type: disc;
+}
+.bold {
+    font-weight: bold;
+}
+.location{
+    color: green;
+    text-decoration-line: underline;
+}

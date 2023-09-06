@@ -1,0 +1,33 @@
+/* 공통속성 - div 2개에 모두 디자인 적용 */
+div {
+    width: 100px;
+    height: 100px;
+    margin: 30px;
+    /* 좌측배치 == 가로배치(display: inline-block) */
+    float: left;
+}
+
+/* 1st bix */
+.bg-tr {
+    background-color: aquamarine;
+    /* TODO 애니메이션 부여 */
+    /* ease == 애니메이션 시작(천천히 효과부여) 중간(빨리 효과 부여) 끝(천천히 효과 부여) */
+    transition: all ease 1s;
+}
+
+.bg-tr:hover {
+    background-color: blueviolet;
+}
+
+.border-tr {
+    background-color: orangered;
+    /* TODO 애니메이셔 ㄴ부여 */
+    /* linear : 등속, 시작 - 중간 - 끝 모두 속도가 같음 */
+    /* 사용법 : transition: 속성 효과 지속시간(s,ms); */
+    transition: all linear 1s;
+}
+
+.border-tr:hover {
+    background-color: royalblue;
+    border-radius: 50%;
+}

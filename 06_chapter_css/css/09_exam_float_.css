@@ -1,0 +1,22 @@
+#logo {
+    float: left;
+}
+
+#menu {
+    list-style: none;
+    float: right;
+    margin-top: 20px;
+}
+#menu li {
+    display: inline-block;
+}
+
+.item {
+    font-size: 14px;
+}
+
+/* float 효과를 제거 - 붕 뜬 현상 제거 */
+#main_image {
+    padding-top: 20px;
+    clear: both;
+}

@@ -1,0 +1,25 @@
+/* 반응형 웹css */
+
+/* 사용법 : @media (max-width: 최대크기) { 선택자 {속성:값;}}  */
+/* 모니터 최대 크기가 699px이하(보통 태블릿)일 때 색 지정 */
+@media (max-width: 699px) {
+    body {
+        background-color: slateblue;
+    }
+}
+
+/* 사용법 : @media (min-width: 최소크기) { 선택자 {속성:값;}}  */
+/* 모니터 최소 크기가 900px이상(보통 PC)일 때 색 지정 */
+@media (min-width: 900px) {
+    body {
+        background-color: silver;
+    }
+}
+
+/* 사용법 : @media (min-width: 최소크기) and (max-width: 최대크기) { 선택자 {속성:값;}}  */
+/* 모니터 최소 크기가 700px이상(보통 PC), 최대크기가 899px일 때 색 지정 */
+@media (min-width: 700px) and (max-width: 899) {
+    body {
+        background-color: lightpink;
+    }
+}

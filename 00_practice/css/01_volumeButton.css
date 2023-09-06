@@ -1,0 +1,62 @@
+
+
+.seek-bar{
+    margin: 100px auto 50px;
+    position: relative;
+    width: calc(100% - 100px);
+    height: 10px;
+    background: #222;
+    border-radius: 5px;
+}
+.seek-bar > .circle {
+    cursor:grab;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 30px;
+    height: 30px;
+    transform: translate(-50%, -50%);
+    touch-action: none;
+}
+
+.seek-bar > .circle > div {
+    height: 100%;
+}
+.seek-bar > .circle> div > em {
+    pointer-events: none;
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 30px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background: #2196f3;
+    border-radius: 100%;
+    transition: all .5s;
+}
+
+.seek-bar > .circle > span {
+    pointer-events: none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    filter: none;
+    color: #fff;
+    font-size: 18px;
+    transition: all .5s;
+    white-space: nowrap;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.seek-bar>.circle.s_on>span {
+    margin-top: -50px; font-size: 20px;
+}
+
+.seek-bar>.circle.s_on>div>em:nth-child(2) {
+    margin-top: -50px;
+    background: #65bbff;
+    width: 40px;
+    height: 40px;
+}

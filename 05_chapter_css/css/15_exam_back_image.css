@@ -1,0 +1,22 @@
+body {
+    background-image: url("/05_chapter_css/img/크리스마스카드.jpg");
+    background-repeat: no-repeat;
+}
+
+p {
+    margin-left: 130px;
+    margin-top: 170px;
+    font-size: 22px;
+    width: 300px;
+    text-align: center;
+
+}
+
+div {
+    background-color: blue;
+    width: 100px;
+    margin-left: 210px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

@@ -1,0 +1,32 @@
+/* css 디자인 우선순위 : 실무, 팀 프로젝트 */
+/* 기본) 같은 선택자 우선순위 : 가장 나중에 디자인 된것이 우선됨 */
+
+/* 부모태그 - 자식태그 : 자식이 우선순위*/
+/* id선택자 > 클래스선택자 > 태그선택자 > 전체선택자 */
+/* TODO: 우선순위를 고려하기 힘든 경우, 디자인 파일 너무 많을 경우 
+    무조건 현재 나의 디자인 적용 방법(같은 태그위치에서) : !important 적용 */
+/* 선택자  {
+    속성 : 값 !important;
+    }
+*/
+
+/* h1태그 */
+#id-div {
+    color: aqua !important;
+}
+h1태그
+#id-heading {
+    color: coral;
+}
+/* h1태그 */
+.class-heading {
+    color: green;
+}
+/* h1태그 */
+h1 {
+    color: brown;
+}
+
+* {
+    color: black;
+}

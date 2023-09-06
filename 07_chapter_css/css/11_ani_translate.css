@@ -1,0 +1,40 @@
+#container {
+    width: 800px;
+    height: 200px;
+    margin: 20px auto;
+}
+
+/* 1st, 2nd, 3rd box - 자식 div */
+.origin {
+    width: 100px;
+    height: 100px;
+    border: 1px solid blueviolet;
+    /* 가로배치 : float: left; == display: inline-block; */
+    float: left;
+    margin: 40px;
+}
+
+/*  손자 div들 */
+.origin div {
+    width: 100px;
+    height: 100px;
+    background-color: orchid;
+}
+
+/* TODO 이동 애니메이션 부여 */
+/* 손자 div태그들 movex, movey, movexy */
+#movex:hover {
+    /* 이동 효과 부여 */
+    /* transform: translateX(Y)(이동거리) */
+    transform: translateX(50px);
+}
+
+#movey:hover {
+    transform: translateY(50px);
+}
+
+/* x, y축 동시 이동 */
+#movexy:hover {
+    /* transform: translate(이동거리(x), 이동거리(y)); */
+    transform: translate(50px, 50px);
+}

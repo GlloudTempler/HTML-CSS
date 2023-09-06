@@ -1,0 +1,8 @@
+#box {
+    background-color: greenyellow;
+    width: 100px;
+    height: 100px;
+    /* display : none; -> 화면에서 보이지 않게 만듬 */
+    /* dsiplay : none <-> block (드롭다운 메뉴에 활용) */
+    display: none;
+}

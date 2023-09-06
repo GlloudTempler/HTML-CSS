@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    cursor: grab;
+    width: 400px;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    margin: 40vh auto;
+}

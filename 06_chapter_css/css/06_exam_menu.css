@@ -1,0 +1,22 @@
+#v_menu {
+  list-style: none;
+}
+
+#v_menu li {
+  padding: 5px;
+  border-bottom: 1px dotted black;
+  width: 150px;
+}
+
+#h_menu {
+  list-style: none;
+}
+
+#h_menu li {
+  display: inline;
+  margin-left: 7px;
+}
+
+.menus {
+  color: green;
+}

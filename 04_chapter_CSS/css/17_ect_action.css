@@ -1,0 +1,10 @@
+/* 반응 선택자 */
+/* 선택자 : hover - 마우스가 위로 올라가면 디자인 적용 */
+/* 선택자 : active - 마우스가 클릭하면 디자인 적용 */
+h1:hover{
+    color: red;
+}
+
+h1:active{
+    color:blue;
+}

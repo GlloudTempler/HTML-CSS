@@ -1,0 +1,18 @@
+body{
+    font-family: '돋음';
+}
+h3{
+    color: blue;
+    font-family: '맑은고딕';
+}
+p{
+    font-size: 14px;
+    line-height: 150%;
+}
+li{
+    list-style-type: square;
+       font-size: 16px;
+}
+span{
+    font-weight: bold;
+}

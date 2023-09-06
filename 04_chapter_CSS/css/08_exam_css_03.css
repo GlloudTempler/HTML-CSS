@@ -1,0 +1,18 @@
+*{
+    font-family: '맑은 고딕';
+}
+h1{
+    color: black;
+    font-size: xx-large;
+}
+ul {
+     /* 목록 앞 이미지 > list-style-image: url("이미지 경로"); */
+    list-style-image: url(../img/arrow.gif);
+}
+span{
+    font-weight: bold;
+}
+p {
+    color: green;
+    text-decoration-line: underline;
+}

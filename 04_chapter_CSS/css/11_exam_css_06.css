@@ -1,0 +1,15 @@
+/* 글자 세로 간격 속성 */
+p {
+    font-size: 14px;
+    /* 글자 세로 간격 */
+    line-height: 130%;
+}
+
+
+#fly{
+    color: red;
+    font-weight: bold;
+}
+.blue {
+    color: blue;
+}

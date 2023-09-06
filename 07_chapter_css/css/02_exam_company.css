@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#page {
+    width: 995px;
+    margin: 0 auto;
+}
+#logo {
+    float: left;
+}
+#top {
+    float: right;
+    margin-top: 25px;
+}
+
+.clear {
+    clear: both;
+}
+
+header {
+    width: 995px;
+    height: 70px;
+    border-bottom: 1px solid rgba(114, 114, 114, 0.425);
+    padding-bottom: 20px;
+}
+
+nav {
+    width: 995px;
+    margin: 5px;
+}
+
+ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    /* 가로 배치 다른 방법 */
+    /* float: left; */
+    width: 155px;
+}
+
+section {
+    width: 600px;
+    float: left;
+    margin: 5px;
+}
+
+aside {
+    width: 370px;
+    float: right;
+    margin: 5px;
+}
+
+footer {
+    border-top: 1px solid rgba(114, 114, 114, 0.425);
+    padding: 5px;
+    width: 995px;
+    margin-top: 20px;
+}
+
+#address {
+    float: left;
+}
+
+#customer {
+    float: right;
+}

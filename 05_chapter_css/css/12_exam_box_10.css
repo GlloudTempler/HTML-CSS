@@ -1,0 +1,14 @@
+body {
+    background-color: yellow;
+}
+li {
+    margin: 3px;
+}
+#button {
+    color: white;
+    background-color: blue;
+    width: 120px;
+    height: 25px;
+    padding: 8px;
+    text-align: center;
+}

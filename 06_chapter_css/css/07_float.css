@@ -1,0 +1,15 @@
+/* float : 좌/우 배치 속성 */
+/* 주로 div박스를 배치, 중앙배치는 없다 */
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: rebeccapurple;
+    margin: 10px;
+    float: left;
+}.box2 {
+    width: 100px;
+    height: 100px;
+    background-color: burlywood;
+    margin: 10px;
+    float: right;
+}

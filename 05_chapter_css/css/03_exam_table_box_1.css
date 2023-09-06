@@ -1,0 +1,9 @@
+/* 선택자, 선택자 {} --> 공통된 속성 다중적용 가능 */
+table, tr, th, td{
+    /* 외곽선 = border : 두께 스타일 색 */
+    border: 2px solid black;
+    /* 테이블 선 사이 간격 붙이기 속성 */
+    border-collapse: collapse;
+    padding: 8px;
+    margin-top: 20px;
+}

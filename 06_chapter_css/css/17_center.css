@@ -1,0 +1,25 @@
+body {
+    background-color: darksalmon;
+}
+
+div {
+    width: 550px;
+    height: 350px;
+    background-color: lightseagreen;
+    /* 절대좌표 */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    /* 애니메이션 함수 (div 위치 이동시키는 함수)*/
+    /* 사용법 : transform: translate(가로크기, 세로크기) */
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 3em;
+}

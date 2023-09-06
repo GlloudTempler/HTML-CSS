@@ -1,0 +1,15 @@
+p {
+    color: green;
+}
+
+/* 밑줄 - text-decoration: underline; */
+
+span{
+    color: blue;
+    /* 굵은 글씨 적용하기 */
+    font-weight: bold;
+    font-family: fantasy;
+    /* 글자 크기 */
+    font-size: larger;
+    text-decoration: underline;
+}

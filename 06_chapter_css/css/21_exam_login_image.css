@@ -1,0 +1,15 @@
+fieldset {
+    width: 30vw;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+label, input {
+    vertical-align: middle;
+}
+
+#user_id {
+    height: 1.2em;
+    border-radius: 4px;
+}

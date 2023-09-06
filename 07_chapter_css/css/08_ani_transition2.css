@@ -1,0 +1,17 @@
+.box {
+    width: 100px;
+    height: 100px;
+    margin: 50px auto;
+    background-color: plum;
+    border: 1px solid blueviolet;
+    /* TODO 애니메이션 부여(축약식) */
+    /* all : 모든 속성 , ease-in : 시작(천천히) - 끝(빨리) */
+    /* 사용법 : transition : 속성 속도차이효과 지속시간; */
+    transition: all ease-in 10s;
+}
+
+.box:hover {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}

@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contents {
+    width: 1000px;
+    margin: 0px auto;
+}
+
+.detail img{
+    float: left;
+    border-radius: 20px;
+    margin: 5px 50px 5px 5px;
+}
+
+main section {
+    margin-top: 60px;
+}
+
+#headling h2{
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+.detail p {
+    margin: 5px;
+    padding: 10px;
+    color: rgb(44, 44, 44);
+}
+
+.detail b p {
+    color: black;
+    font-size: 1.2em;
+}
+
+.schedule {
+    margin-top: 15px;    
+}
+
+.schedule h3 {
+    font-size: 1.2em;
+}
+
+.schedule ul {
+    list-style-type: none; 
+    padding-top: 10px;
+}
+
+.schedule li {
+    margin-top: 10px;
+    color: rgb(44, 44, 44);
+}
+
+#activity {
+    clear: both;
+}
+
+#activity h2{
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
